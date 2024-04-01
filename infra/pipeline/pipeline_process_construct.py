@@ -16,12 +16,12 @@ from .a2i_template_construct import A2ITemplateConstruct
 
 class Process:
     ACQUIRE = 'acquire'
-    AUGMENT = 'augment'
+    # AUGMENT = 'augment'
     CATALOG = 'catalog'
     CONVERT = 'convert'
     EXTRACT = 'extract'
-    OPERATE = 'operate'
-    RESHAPE = 'reshape'
+    # OPERATE = 'operate'
+    # RESHAPE = 'reshape'
 
 class Aspect:
     BEGIN = 'begin'
@@ -61,11 +61,11 @@ class PipelineProcessConstruct(Construct):
         self.__stage_await_lambdas = {}
 
         self.__create_stage_acquire(stage = Process.ACQUIRE)
-        self.__create_stage_convert(stage = Process.CONVERT)
+        # self.__create_stage_convert(stage = Process.CONVERT)
         self.__create_stage_extract(stage = Process.EXTRACT)
-        self.__create_stage_reshape(stage = Process.RESHAPE)
-        self.__create_stage_operate(stage = Process.OPERATE)
-        self.__create_stage_augment(stage = Process.AUGMENT)
+        # self.__create_stage_reshape(stage = Process.RESHAPE)
+        # self.__create_stage_operate(stage = Process.OPERATE)
+        # self.__create_stage_augment(stage = Process.AUGMENT)
         self.__create_stage_catalog(stage = Process.CATALOG)
 
     def get_stage_actor_lambdas(self):
@@ -229,31 +229,31 @@ class PipelineProcessConstruct(Construct):
         # Create Textract service role
         srole_textract = aws_iam.Role(
             scope      = self,
-            id         = f'{self.__prefix}-srole-textract',
-            assumed_by = aws_iam.ServicePrincipal('textract.amazonaws.com') # Allow role to be assumed by textract
+            id         = f'{self.__prefix}-srole-bedrock',
+            assumed_by = aws_iam.ServicePrincipal('bedrock.amazonaws.com') # Allow role to be assumed by textract
         )
 
         # Allow Textract service role to publish output to Textract SNS topic
         topic_textract.grant_publish(srole_textract)
 
-        srole_textract.grant_pass_role(self.__stage_begin_lambdas[Process.EXTRACT])
+        srole_textract.grant_pass_role(self.__stage_actor_lambdas[Process.EXTRACT])
 
-        self.__stage_begin_lambdas[Process.EXTRACT].role.add_managed_policy(
-            aws_iam.ManagedPolicy.from_aws_managed_policy_name('AmazonTextractFullAccess')
+        self.__stage_actor_lambdas[Process.EXTRACT].role.add_managed_policy(
+            aws_iam.ManagedPolicy.from_aws_managed_policy_name('AmazonBedrockFullAccess')
         )
 
-        self.__stage_await_lambdas[Process.EXTRACT].role.add_managed_policy(
-            aws_iam.ManagedPolicy.from_aws_managed_policy_name('AmazonTextractFullAccess')
-        )
+        # self.__stage_await_lambdas[Process.EXTRACT].role.add_managed_policy(
+        #     aws_iam.ManagedPolicy.from_aws_managed_policy_name('AmazonBedrockFullAccess')
+        # )
 
         # Pass role to begin lambda
         self.__stage_begin_lambdas[Process.EXTRACT].add_environment(
-            'SROLE_TEXTRACT_ARN', srole_textract.role_arn
+            'SROLE_BEDROCK_ARN', srole_textract.role_arn
         )
 
         # Pass output SNS to begin lambda
         self.__stage_begin_lambdas[Process.EXTRACT].add_environment(
-            'TOPIC_TEXTRACT_ARN', topic_textract.topic_arn
+            'TOPIC_BEDROCK_ARN', topic_textract.topic_arn
         )
 
         # Add subscription between the Textract output SNS topic and Extract stage SQS message bus
@@ -313,6 +313,7 @@ class PipelineProcessConstruct(Construct):
         }
 
         lambda_function = self.__create_lambda_function(stage, Aspect.BEGIN, environ)
+        queue.grant_send_messages(lambda_function)
 
       # Grant IAM Permission to begin lambda to execute actor lambda
         actor.grant_invoke(lambda_function)

@@ -27,7 +27,7 @@ else:
 
 TABLE_PIPELINE  = f'{PREFIX}-table-pipeline'.lower()
 INDEX_PROGRESS  = f'{PREFIX}-index-progress'.lower()
-STORE_BUCKET    = f'{PREFIX}-store-document-{ACCOUNT}-{REGION}'.lower()
+STORE_BUCKET    = f'{PREFIX}-store-document-{ACCOUNT}'.lower()
 STAGE_QUEUE     = f'{PREFIX}-queue-{STAGE}'.lower()
 STAGE_ACTOR     = f'{PREFIX}-processor-{STAGE}-actor'.lower()
 

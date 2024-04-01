@@ -59,7 +59,7 @@ Deploying this application to your AWS account will create various S3 buckets, L
 1. cd _TabularDocumentDigitization_
 3. python3 -m venv .venv --prompt tdd       - Create virtual environment
 3. source .venv/bin/activate                - Enter virtual environment
-4. pip install .                            - Install dependencies in virtual environment
+4. pip install -r requirements.txt          - Install dependencies in virtual environment
 5. cdk bootstrap                            - Only run this once per account setup
 6. edit cdk.json, set your work team name   - Pre-create the workteam via aws console, and make sure to match workteam name in same region/account
 7. cdk deploy --all                         - Deploy application

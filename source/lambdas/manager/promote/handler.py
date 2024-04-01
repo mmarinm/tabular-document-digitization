@@ -5,11 +5,11 @@ from shared.database import Database
 from shared.defines import Stage
 
 STAGE_TRANSITIONS_ORDER = [Stage.ACQUIRE,
-                           Stage.CONVERT,
+                        #    Stage.CONVERT,
                            Stage.EXTRACT,
-                           Stage.RESHAPE,
-                           Stage.OPERATE,
-                           Stage.AUGMENT,
+                        #    Stage.RESHAPE,
+                        #    Stage.OPERATE,
+                        #    Stage.AUGMENT,
                            Stage.CATALOG]
 
 def lambda_handler(context, event):

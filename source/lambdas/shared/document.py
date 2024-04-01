@@ -51,7 +51,7 @@ class ConvertMap(StageMap):
     pass
 @dataclass
 class ExtractMap(StageMap):
-    TextractID: str = ''    # Identifier of currently running textract job.
+    ParsedInvoice: dict = field(default_factory=dict)   
 
 @dataclass
 class ReshapeMap(StageMap):

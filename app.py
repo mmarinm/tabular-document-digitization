@@ -19,20 +19,20 @@ if  __name__ == '__main__':
 
     app     = cdk.App()
 
-    # baseline_stack = BaselineStack(
-    #     scope  = app,
-    #     id     = f'TDD-{deploy}-Baseline',
-    #     prefix = prefix,
-    #     suffix = suffix
-    # )
-
-    template_stack = TemplateStack(
+    baseline_stack = BaselineStack(
         scope  = app,
-        id     = f'TDD-{deploy}-Template',
+        id     = f'TDD-{deploy}-Baseline',
         prefix = prefix,
-        suffix = suffix,
-        source = Path('source/augment-ui').absolute()
+        suffix = suffix
     )
+
+    # template_stack = TemplateStack(
+    #     scope  = app,
+    #     id     = f'TDD-{deploy}-Template',
+    #     prefix = prefix,
+    #     suffix = suffix,
+    #     source = Path('source/augment-ui').absolute()
+    # )
 
     pipeline_stack = PipelineStack(
         scope  = app,
@@ -40,11 +40,12 @@ if  __name__ == '__main__':
         prefix = prefix,
         suffix = suffix,
         source = Path('source/lambdas').absolute(),
-        liquid = template_stack.get_resources()['liquid_uri']
+        # liquid = template_stack.get_resources()['liquid_uri']
+        liquid = None
     )
 
  #  template_stack.add_dependency(baseline_stack)
  #  pipeline_stack.add_dependency(baseline_stack)
-    pipeline_stack.add_dependency(template_stack)
+    # pipeline_stack.add_dependency(template_stack)
 
     app.synth()

@@ -30,13 +30,15 @@ class Env:
 
         deploy = Env.GetDeploy()
         
-        return f'tdd-{deploy}'.lower()
+        # return f'tdd-{deploy}'.lower()
+        return f'tdd'
 
     def GetSuffix():
 
         account = Env.GetAccount()
-        region  = Env.GetRegion()
-        suffix  = f'{account}-{region}'
+        # region  = Env.GetRegion()
+        # suffix  = f'{account}-{region}'
+        suffix  = f'{account}'        
 
         return suffix.lower()
 

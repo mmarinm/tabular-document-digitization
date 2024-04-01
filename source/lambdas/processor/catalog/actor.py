@@ -18,18 +18,20 @@ def lambda_handler(event, context):
     document = Document.from_dict(event)
     message  = Message(document.DocumentID)
 
-    message.DocumentID            = document.DocumentID
-    message.MapUpdates.StageS3Uri = S3Uri(Bucket = STORE_BUCKET, Prefix = f'{STAGE}/{document.DocumentID}')
+    print(document)
+
+    # message.DocumentID            = document.DocumentID
+    # message.MapUpdates.StageS3Uri = S3Uri(Bucket = STORE_BUCKET, Prefix = f'{STAGE}/{document.DocumentID}')
 
     try :
 
         Logger.info(f'{STAGE} Actor : Started Processing DocumentID = {document.DocumentID}')
 
-        for n, humanAnswer in enumerate(document.AugmentMap.StageS3Uri.List()):
-            xlsxContent = helper.convert(humanAnswer.GetJSON())
-            S3Uri(Bucket = STORE_BUCKET, Object = f'{STAGE}/{document.DocumentID}/{n}.xlsx').Put(xlsxContent)
+        # for n, humanAnswer in enumerate(document.AugmentMap.StageS3Uri.List()):
+        #     xlsxContent = helper.convert(humanAnswer.GetJSON())
+        #     S3Uri(Bucket = STORE_BUCKET, Object = f'{STAGE}/{document.DocumentID}/{n}.xlsx').Put(xlsxContent)
 
-        Logger.info(f'{STAGE} Actor : Stopped Processing DocumentID = {document.DocumentID}')
+        # Logger.info(f'{STAGE} Actor : Stopped Processing DocumentID = {document.DocumentID}')
 
     except (
 
