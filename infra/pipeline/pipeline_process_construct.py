@@ -16,7 +16,7 @@ from .a2i_template_construct import A2ITemplateConstruct
 
 class Process:
     ACQUIRE = 'acquire'
-    # AUGMENT = 'augment'
+    AUGMENT = 'augment'
     CATALOG = 'catalog'
     CONVERT = 'convert'
     EXTRACT = 'extract'
@@ -65,7 +65,7 @@ class PipelineProcessConstruct(Construct):
         self.__create_stage_extract(stage = Process.EXTRACT)
         # self.__create_stage_reshape(stage = Process.RESHAPE)
         # self.__create_stage_operate(stage = Process.OPERATE)
-        # self.__create_stage_augment(stage = Process.AUGMENT)
+        self.__create_stage_augment(stage = Process.AUGMENT)
         self.__create_stage_catalog(stage = Process.CATALOG)
 
     def get_stage_actor_lambdas(self):
@@ -241,10 +241,6 @@ class PipelineProcessConstruct(Construct):
         self.__stage_actor_lambdas[Process.EXTRACT].role.add_managed_policy(
             aws_iam.ManagedPolicy.from_aws_managed_policy_name('AmazonBedrockFullAccess')
         )
-
-        # self.__stage_await_lambdas[Process.EXTRACT].role.add_managed_policy(
-        #     aws_iam.ManagedPolicy.from_aws_managed_policy_name('AmazonBedrockFullAccess')
-        # )
 
         # Pass role to begin lambda
         self.__stage_begin_lambdas[Process.EXTRACT].add_environment(

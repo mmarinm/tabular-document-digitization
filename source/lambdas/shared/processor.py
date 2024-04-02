@@ -114,6 +114,8 @@ class AwaitProcessor(object):
 
                 setattr(document.CurrentMap, key, value) # TODO Fix StageS3Uri from becoming a Dictionary
 
+            print("document.CurrentMap", document.CurrentMap)
+
             if  message.ActorGrade == Grade.PASS:
 
                 document.State = State.SUCCESS

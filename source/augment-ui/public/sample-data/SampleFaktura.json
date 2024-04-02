@@ -1,0 +1,2038 @@
+{
+    "numPages": 1,
+    "pages": [
+        {
+            "pageNumber": 1,
+            "tables": [
+                {
+                    "tableType": "Form",
+                    "headerColumnTypes": [
+                        "Key",
+                        "Value"
+                    ],
+                    "rows": [
+                        [
+                            {
+                                "text": "Supplier",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.0740625,
+                                    "left": 0.01125,
+                                    "width": 0.15,
+                                    "height": 0.028125
+                                },
+                                "tag": "supplier-key"
+                            },
+                            {
+                                "text": "PROVIDER Service d.o.o.",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.070625,
+                                    "left": 0.16875,
+                                    "width": 0.4125,
+                                    "height": 0.03125
+                                },
+                                "tag": "supplier-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "Address",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.1059375,
+                                    "left": 0.01125,
+                                    "width": 0.09375,
+                                    "height": 0.021875
+                                },
+                                "tag": "supplier-address-key"
+                            },
+                            {
+                                "text": "DOMOVINSKOG RATA 1/B, 21210 SOLIN",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.1059375,
+                                    "left": 0.16875,
+                                    "width": 0.53125,
+                                    "height": 0.021875
+                                },
+                                "tag": "supplier-address-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "OIB",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.134375,
+                                    "left": 0.01125,
+                                    "width": 0.040625,
+                                    "height": 0.015625
+                                },
+                                "tag": "supplier-oib-key"
+                            },
+                            {
+                                "text": "83450400769",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.134375,
+                                    "left": 0.16875,
+                                    "width": 0.134375,
+                                    "height": 0.015625
+                                },
+                                "tag": "supplier-oib-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "Customer",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.228125,
+                                    "left": 0.01125,
+                                    "width": 0.109375,
+                                    "height": 0.025
+                                },
+                                "tag": "customer-key"
+                            },
+                            {
+                                "text": "VLAMANDA SPORT d.o.o",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.225,
+                                    "left": 0.16875,
+                                    "width": 0.290625,
+                                    "height": 0.028125
+                                },
+                                "tag": "customer-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "Address",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.259375,
+                                    "left": 0.01125,
+                                    "width": 0.09375,
+                                    "height": 0.021875
+                                },
+                                "tag": "customer-address-key"
+                            },
+                            {
+                                "text": "Put Duljova 8/B, 21000 SPLIT",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.259375,
+                                    "left": 0.16875,
+                                    "width": 0.328125,
+                                    "height": 0.021875
+                                },
+                                "tag": "customer-address-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "OIB",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.2875,
+                                    "left": 0.01125,
+                                    "width": 0.040625,
+                                    "height": 0.015625
+                                },
+                                "tag": "customer-oib-key"
+                            },
+                            {
+                                "text": "87247707479",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.2875,
+                                    "left": 0.16875,
+                                    "width": 0.134375,
+                                    "height": 0.015625
+                                },
+                                "tag": "customer-oib-value"
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "tableType": "Table",
+                    "headerColumnTypes": [
+                        "R.Br",
+                        "Sitra",
+                        "ProductName",
+                        "Barcode",
+                        "J.M.",
+                        "Quantity",
+                        "V.P.C.",
+                        "Rab.(%)/P.C.",
+                        "PDV(%)",
+                        "Value"
+                    ],
+                    "rows": [
+                        [
+                            {
+                                "text": "1",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.44375,
+                                    "left": 0.01875,
+                                    "width": 0.021875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-1-r-br"
+                            },
+                            {
+                                "text": "0006484",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.44375,
+                                    "left": 0.059375,
+                                    "width": 0.090625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-1-sitra"
+                            },
+                            {
+                                "text": "TANJUR SEASON 35*18 BEIGE",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.44375,
+                                    "left": 0.171875,
+                                    "width": 0.325,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-1-product-name"
+                            },
+                            {
+                                "text": "8690947706477",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.44375,
+                                    "left": 0.51875,
+                                    "width": 0.178125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-1-barcode"
+                            },
+                            {
+                                "text": "kom",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.44375,
+                                    "left": 0.715625,
+                                    "width": 0.05,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-1-unit"
+                            },
+                            {
+                                "text": "19.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.44375,
+                                    "left": 0.78125,
+                                    "width": 0.046875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-1-quantity"
+                            },
+                            {
+                                "text": "15.45",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.44375,
+                                    "left": 0.84375,
+                                    "width": 0.059375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-1-unit-price"
+                            },
+                            {
+                                "text": "5.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.44375,
+                                    "left": 0.91875,
+                                    "width": 0.040625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-1-discount-percentage"
+                            },
+                            {
+                                "text": "14.68",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.44375,
+                                    "left": 0.96875,
+                                    "width": 0.071875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-1-discounted-price"
+                            },
+                            {
+                                "text": "25.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.44375,
+                                    "left": 1.059375,
+                                    "width": 0.05625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-1-vat-percentage"
+                            },
+                            {
+                                "text": "348.59",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.44375,
+                                    "left": 1.134375,
+                                    "width": 0.084375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-1-total-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "2",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.475,
+                                    "left": 0.01875,
+                                    "width": 0.021875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-2-r-br"
+                            },
+                            {
+                                "text": "0006490",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.475,
+                                    "left": 0.059375,
+                                    "width": 0.090625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-2-sitra"
+                            },
+                            {
+                                "text": "TANJUR SEASON 35*18 TURQ",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.475,
+                                    "left": 0.171875,
+                                    "width": 0.275,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-2-product-name"
+                            },
+                            {
+                                "text": "8690947706446",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.475,
+                                    "left": 0.51875,
+                                    "width": 0.178125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-2-barcode"
+                            },
+                            {
+                                "text": "kom",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.475,
+                                    "left": 0.715625,
+                                    "width": 0.05,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-2-unit"
+                            },
+                            {
+                                "text": "2.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.475,
+                                    "left": 0.78125,
+                                    "width": 0.046875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-2-quantity"
+                            },
+                            {
+                                "text": "16.07",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.475,
+                                    "left": 0.84375,
+                                    "width": 0.059375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-2-unit-price"
+                            },
+                            {
+                                "text": "5.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.475,
+                                    "left": 0.91875,
+                                    "width": 0.040625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-2-discount-percentage"
+                            },
+                            {
+                                "text": "16.12",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.475,
+                                    "left": 0.96875,
+                                    "width": 0.071875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-2-discounted-price"
+                            },
+                            {
+                                "text": "25.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.475,
+                                    "left": 1.059375,
+                                    "width": 0.05625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-2-vat-percentage"
+                            },
+                            {
+                                "text": "40.3",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.475,
+                                    "left": 1.134375,
+                                    "width": 0.084375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-2-total-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "3",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.50625,
+                                    "left": 0.01875,
+                                    "width": 0.021875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-3-r-br"
+                            },
+                            {
+                                "text": "0006234",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.50625,
+                                    "left": 0.059375,
+                                    "width": 0.090625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-3-sitra"
+                            },
+                            {
+                                "text": "ZDJELA FINESSE 14CM ALUMILITE",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.50625,
+                                    "left": 0.171875,
+                                    "width": 0.334375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-3-product-name"
+                            },
+                            {
+                                "text": "8690947706251",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.50625,
+                                    "left": 0.51875,
+                                    "width": 0.178125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-3-barcode"
+                            },
+                            {
+                                "text": "kom",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.50625,
+                                    "left": 0.715625,
+                                    "width": 0.05,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-3-unit"
+                            },
+                            {
+                                "text": "6.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.50625,
+                                    "left": 0.78125,
+                                    "width": 0.046875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-3-quantity"
+                            },
+                            {
+                                "text": "5.77",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.50625,
+                                    "left": 0.84375,
+                                    "width": 0.059375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-3-unit-price"
+                            },
+                            {
+                                "text": "5.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.50625,
+                                    "left": 0.91875,
+                                    "width": 0.040625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-3-discount-percentage"
+                            },
+                            {
+                                "text": "5.48",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.50625,
+                                    "left": 0.96875,
+                                    "width": 0.071875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-3-discounted-price"
+                            },
+                            {
+                                "text": "25.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.50625,
+                                    "left": 1.059375,
+                                    "width": 0.05625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-3-vat-percentage"
+                            },
+                            {
+                                "text": "41.11",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.50625,
+                                    "left": 1.134375,
+                                    "width": 0.084375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-3-total-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "4",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.5375,
+                                    "left": 0.01875,
+                                    "width": 0.021875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-4-r-br"
+                            },
+                            {
+                                "text": "0005430",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.5375,
+                                    "left": 0.059375,
+                                    "width": 0.090625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-4-sitra"
+                            },
+                            {
+                                "text": "ZDJELA SEASON 5,5CM GREY",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.5375,
+                                    "left": 0.171875,
+                                    "width": 0.275,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-4-product-name"
+                            },
+                            {
+                                "text": "8690947762004",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.5375,
+                                    "left": 0.51875,
+                                    "width": 0.178125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-4-barcode"
+                            },
+                            {
+                                "text": "kom",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.5375,
+                                    "left": 0.715625,
+                                    "width": 0.05,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-4-unit"
+                            },
+                            {
+                                "text": "12.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.5375,
+                                    "left": 0.78125,
+                                    "width": 0.046875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-4-quantity"
+                            },
+                            {
+                                "text": "1.59",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.5375,
+                                    "left": 0.84375,
+                                    "width": 0.059375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-4-unit-price"
+                            },
+                            {
+                                "text": "5.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.5375,
+                                    "left": 0.91875,
+                                    "width": 0.040625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-4-discount-percentage"
+                            },
+                            {
+                                "text": "1.51",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.5375,
+                                    "left": 0.96875,
+                                    "width": 0.071875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-4-discounted-price"
+                            },
+                            {
+                                "text": "25.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.5375,
+                                    "left": 1.059375,
+                                    "width": 0.05625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-4-vat-percentage"
+                            },
+                            {
+                                "text": "22.66",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.5375,
+                                    "left": 1.134375,
+                                    "width": 0.084375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-4-total-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "5",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.56875,
+                                    "left": 0.01875,
+                                    "width": 0.021875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-5-r-br"
+                            },
+                            {
+                                "text": "0005430",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.56875,
+                                    "left": 0.059375,
+                                    "width": 0.090625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-5-sitra"
+                            },
+                            {
+                                "text": "ZDJELA SEASON 5,5CM GREY",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.56875,
+                                    "left": 0.171875,
+                                    "width": 0.275,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-5-product-name"
+                            },
+                            {
+                                "text": "8690947762004",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.56875,
+                                    "left": 0.51875,
+                                    "width": 0.178125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-5-barcode"
+                            },
+                            {
+                                "text": "kom",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.56875,
+                                    "left": 0.715625,
+                                    "width": 0.05,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-5-unit"
+                            },
+                            {
+                                "text": "18.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.56875,
+                                    "left": 0.78125,
+                                    "width": 0.046875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-5-quantity"
+                            },
+                            {
+                                "text": "1.59",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.56875,
+                                    "left": 0.84375,
+                                    "width": 0.059375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-5-unit-price"
+                            },
+                            {
+                                "text": "25.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.56875,
+                                    "left": 0.91875,
+                                    "width": 0.040625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-5-discount-percentage"
+                            },
+                            {
+                                "text": "1.51",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.56875,
+                                    "left": 0.96875,
+                                    "width": 0.071875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-5-discounted-price"
+                            },
+                            {
+                                "text": "25.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.56875,
+                                    "left": 1.059375,
+                                    "width": 0.05625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-5-vat-percentage"
+                            },
+                            {
+                                "text": "8.51",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.56875,
+                                    "left": 1.134375,
+                                    "width": 0.084375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-5-total-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "6",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6,
+                                    "left": 0.01875,
+                                    "width": 0.021875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-6-r-br"
+                            },
+                            {
+                                "text": "0006793",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6,
+                                    "left": 0.059375,
+                                    "width": 0.090625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-6-sitra"
+                            },
+                            {
+                                "text": "TANJUR SEASON COUPE 28CM TURQU",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6,
+                                    "left": 0.171875,
+                                    "width": 0.365625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-6-product-name"
+                            },
+                            {
+                                "text": "8690947762413",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6,
+                                    "left": 0.51875,
+                                    "width": 0.178125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-6-barcode"
+                            },
+                            {
+                                "text": "kom",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6,
+                                    "left": 0.715625,
+                                    "width": 0.05,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-6-unit"
+                            },
+                            {
+                                "text": "8.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6,
+                                    "left": 0.78125,
+                                    "width": 0.046875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-6-quantity"
+                            },
+                            {
+                                "text": "11.64",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6,
+                                    "left": 0.84375,
+                                    "width": 0.059375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-6-unit-price"
+                            },
+                            {
+                                "text": "5.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6,
+                                    "left": 0.91875,
+                                    "width": 0.040625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-6-discount-percentage"
+                            },
+                            {
+                                "text": "11.06",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6,
+                                    "left": 0.96875,
+                                    "width": 0.071875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-6-discounted-price"
+                            },
+                            {
+                                "text": "25.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6,
+                                    "left": 1.059375,
+                                    "width": 0.05625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-6-vat-percentage"
+                            },
+                            {
+                                "text": "110.58",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6,
+                                    "left": 1.134375,
+                                    "width": 0.084375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-6-total-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "7",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.63125,
+                                    "left": 0.01875,
+                                    "width": 0.021875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-7-r-br"
+                            },
+                            {
+                                "text": "0005409",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.63125,
+                                    "left": 0.059375,
+                                    "width": 0.090625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-7-sitra"
+                            },
+                            {
+                                "text": "TANJUR SEASON COUPE 28CM DARKG",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.63125,
+                                    "left": 0.171875,
+                                    "width": 0.384375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-7-product-name"
+                            },
+                            {
+                                "text": "8690947826577",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.63125,
+                                    "left": 0.51875,
+                                    "width": 0.178125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-7-barcode"
+                            },
+                            {
+                                "text": "kom",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.63125,
+                                    "left": 0.715625,
+                                    "width": 0.05,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-7-unit"
+                            },
+                            {
+                                "text": "12.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.63125,
+                                    "left": 0.78125,
+                                    "width": 0.046875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-7-quantity"
+                            },
+                            {
+                                "text": "12.23",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.63125,
+                                    "left": 0.84375,
+                                    "width": 0.059375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-7-unit-price"
+                            },
+                            {
+                                "text": "5.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.63125,
+                                    "left": 0.91875,
+                                    "width": 0.040625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-7-discount-percentage"
+                            },
+                            {
+                                "text": "11.62",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.63125,
+                                    "left": 0.96875,
+                                    "width": 0.071875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-7-discounted-price"
+                            },
+                            {
+                                "text": "25.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.63125,
+                                    "left": 1.059375,
+                                    "width": 0.05625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-7-vat-percentage"
+                            },
+                            {
+                                "text": "174.28",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.63125,
+                                    "left": 1.134375,
+                                    "width": 0.084375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-7-total-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "8",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6625,
+                                    "left": 0.01875,
+                                    "width": 0.021875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-8-r-br"
+                            },
+                            {
+                                "text": "0012696",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6625,
+                                    "left": 0.059375,
+                                    "width": 0.090625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-8-sitra"
+                            },
+                            {
+                                "text": "RIBEZ 4 STRANE 96/29D",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6625,
+                                    "left": 0.171875,
+                                    "width": 0.28125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-8-product-name"
+                            },
+                            {
+                                "text": "4003925009907",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6625,
+                                    "left": 0.51875,
+                                    "width": 0.178125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-8-barcode"
+                            },
+                            {
+                                "text": "kom",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6625,
+                                    "left": 0.715625,
+                                    "width": 0.05,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-8-unit"
+                            },
+                            {
+                                "text": "1.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6625,
+                                    "left": 0.78125,
+                                    "width": 0.046875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-8-quantity"
+                            },
+                            {
+                                "text": "10.06",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6625,
+                                    "left": 0.84375,
+                                    "width": 0.059375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-8-unit-price"
+                            },
+                            {
+                                "text": "5.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6625,
+                                    "left": 0.91875,
+                                    "width": 0.040625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-8-discount-percentage"
+                            },
+                            {
+                                "text": "9.56",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6625,
+                                    "left": 0.96875,
+                                    "width": 0.071875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-8-discounted-price"
+                            },
+                            {
+                                "text": "25.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6625,
+                                    "left": 1.059375,
+                                    "width": 0.05625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-8-vat-percentage"
+                            },
+                            {
+                                "text": "11.95",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.6625,
+                                    "left": 1.134375,
+                                    "width": 0.084375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-8-total-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "9",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.69375,
+                                    "left": 0.01875,
+                                    "width": 0.021875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-9-r-br"
+                            },
+                            {
+                                "text": "0071342",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.69375,
+                                    "left": 0.059375,
+                                    "width": 0.090625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-9-sitra"
+                            },
+                            {
+                                "text": "MARKER SREEP 2LATNI 2/1",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.69375,
+                                    "left": 0.171875,
+                                    "width": 0.28125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-9-product-name"
+                            },
+                            {
+                                "text": "6719072200072",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.69375,
+                                    "left": 0.51875,
+                                    "width": 0.178125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-9-barcode"
+                            },
+                            {
+                                "text": "kom",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.69375,
+                                    "left": 0.715625,
+                                    "width": 0.05,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-9-unit"
+                            },
+                            {
+                                "text": "1.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.69375,
+                                    "left": 0.78125,
+                                    "width": 0.046875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-9-quantity"
+                            },
+                            {
+                                "text": "5.98",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.69375,
+                                    "left": 0.84375,
+                                    "width": 0.059375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-9-unit-price"
+                            },
+                            {
+                                "text": "5.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.69375,
+                                    "left": 0.91875,
+                                    "width": 0.040625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-9-discount-percentage"
+                            },
+                            {
+                                "text": "5.68",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.69375,
+                                    "left": 0.96875,
+                                    "width": 0.071875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-9-discounted-price"
+                            },
+                            {
+                                "text": "25.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.69375,
+                                    "left": 1.059375,
+                                    "width": 0.05625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-9-vat-percentage"
+                            },
+                            {
+                                "text": "5.68",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.69375,
+                                    "left": 1.134375,
+                                    "width": 0.084375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-9-total-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "10",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.725,
+                                    "left": 0.01875,
+                                    "width": 0.021875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-10-r-br"
+                            },
+                            {
+                                "text": "0122418",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.725,
+                                    "left": 0.059375,
+                                    "width": 0.090625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-10-sitra"
+                            },
+                            {
+                                "text": "MARKER SREEPNI",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.725,
+                                    "left": 0.171875,
+                                    "width": 0.184375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-10-product-name"
+                            },
+                            {
+                                "text": "0000957759389",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.725,
+                                    "left": 0.51875,
+                                    "width": 0.178125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-10-barcode"
+                            },
+                            {
+                                "text": "kom",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.725,
+                                    "left": 0.715625,
+                                    "width": 0.05,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-10-unit"
+                            },
+                            {
+                                "text": "2.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.725,
+                                    "left": 0.78125,
+                                    "width": 0.046875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-10-quantity"
+                            },
+                            {
+                                "text": "2.39",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.725,
+                                    "left": 0.84375,
+                                    "width": 0.059375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-10-unit-price"
+                            },
+                            {
+                                "text": "5.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.725,
+                                    "left": 0.91875,
+                                    "width": 0.040625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-10-discount-percentage"
+                            },
+                            {
+                                "text": "2.27",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.725,
+                                    "left": 0.96875,
+                                    "width": 0.071875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-10-discounted-price"
+                            },
+                            {
+                                "text": "25.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.725,
+                                    "left": 1.059375,
+                                    "width": 0.05625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-10-vat-percentage"
+                            },
+                            {
+                                "text": "5.68",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.725,
+                                    "left": 1.134375,
+                                    "width": 0.084375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-10-total-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "11",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.75625,
+                                    "left": 0.01875,
+                                    "width": 0.021875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-11-r-br"
+                            },
+                            {
+                                "text": "0006962",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.75625,
+                                    "left": 0.059375,
+                                    "width": 0.090625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-11-sitra"
+                            },
+                            {
+                                "text": "TANJUR SEASON 18CM TURQUOISE",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.75625,
+                                    "left": 0.171875,
+                                    "width": 0.359375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-11-product-name"
+                            },
+                            {
+                                "text": "8690947776309",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.75625,
+                                    "left": 0.51875,
+                                    "width": 0.178125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-11-barcode"
+                            },
+                            {
+                                "text": "kom",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.75625,
+                                    "left": 0.715625,
+                                    "width": 0.05,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-11-unit"
+                            },
+                            {
+                                "text": "6.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.75625,
+                                    "left": 0.78125,
+                                    "width": 0.046875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-11-quantity"
+                            },
+                            {
+                                "text": "5.58",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.75625,
+                                    "left": 0.84375,
+                                    "width": 0.059375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-11-unit-price"
+                            },
+                            {
+                                "text": "5.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.75625,
+                                    "left": 0.91875,
+                                    "width": 0.040625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-11-discount-percentage"
+                            },
+                            {
+                                "text": "5.3",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.75625,
+                                    "left": 0.96875,
+                                    "width": 0.071875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-11-discounted-price"
+                            },
+                            {
+                                "text": "25.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.75625,
+                                    "left": 1.059375,
+                                    "width": 0.05625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-11-vat-percentage"
+                            },
+                            {
+                                "text": "39.76",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.75625,
+                                    "left": 1.134375,
+                                    "width": 0.084375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-11-total-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "12",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.7875,
+                                    "left": 0.01875,
+                                    "width": 0.021875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-12-r-br"
+                            },
+                            {
+                                "text": "0008134",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.7875,
+                                    "left": 0.059375,
+                                    "width": 0.090625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-12-sitra"
+                            },
+                            {
+                                "text": "TANJUR SEASON 19*13CM GREY",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.7875,
+                                    "left": 0.171875,
+                                    "width": 0.328125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-12-product-name"
+                            },
+                            {
+                                "text": "8690947776347",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.7875,
+                                    "left": 0.51875,
+                                    "width": 0.178125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-12-barcode"
+                            },
+                            {
+                                "text": "kom",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.7875,
+                                    "left": 0.715625,
+                                    "width": 0.05,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-12-unit"
+                            },
+                            {
+                                "text": "14.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.7875,
+                                    "left": 0.78125,
+                                    "width": 0.046875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-12-quantity"
+                            },
+                            {
+                                "text": "3.58",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.7875,
+                                    "left": 0.84375,
+                                    "width": 0.059375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-12-unit-price"
+                            },
+                            {
+                                "text": "5.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.7875,
+                                    "left": 0.91875,
+                                    "width": 0.040625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-12-discount-percentage"
+                            },
+                            {
+                                "text": "3.4",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.7875,
+                                    "left": 0.96875,
+                                    "width": 0.071875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-12-discounted-price"
+                            },
+                            {
+                                "text": "25.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.7875,
+                                    "left": 1.059375,
+                                    "width": 0.05625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-12-vat-percentage"
+                            },
+                            {
+                                "text": "59.51",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.7875,
+                                    "left": 1.134375,
+                                    "width": 0.084375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-12-total-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "13",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.81875,
+                                    "left": 0.01875,
+                                    "width": 0.021875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-13-r-br"
+                            },
+                            {
+                                "text": "0011551",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.81875,
+                                    "left": 0.059375,
+                                    "width": 0.090625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-13-sitra"
+                            },
+                            {
+                                "text": "BOCA ZA SOJU JAP cca150ml",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.81875,
+                                    "left": 0.171875,
+                                    "width": 0.334375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-13-product-name"
+                            },
+                            {
+                                "text": "8056444294019",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.81875,
+                                    "left": 0.51875,
+                                    "width": 0.178125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-13-barcode"
+                            },
+                            {
+                                "text": "kom",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.81875,
+                                    "left": 0.715625,
+                                    "width": 0.05,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-13-unit"
+                            },
+                            {
+                                "text": "6.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.81875,
+                                    "left": 0.78125,
+                                    "width": 0.046875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-13-quantity"
+                            },
+                            {
+                                "text": "4.51",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.81875,
+                                    "left": 0.84375,
+                                    "width": 0.059375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-13-unit-price"
+                            },
+                            {
+                                "text": "5.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.81875,
+                                    "left": 0.91875,
+                                    "width": 0.040625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-13-discount-percentage"
+                            },
+                            {
+                                "text": "4.28",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.81875,
+                                    "left": 0.96875,
+                                    "width": 0.071875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-13-discounted-price"
+                            },
+                            {
+                                "text": "25.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.81875,
+                                    "left": 1.059375,
+                                    "width": 0.05625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-13-vat-percentage"
+                            },
+                            {
+                                "text": "32.14",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.81875,
+                                    "left": 1.134375,
+                                    "width": 0.084375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-13-total-value"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "14",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.85,
+                                    "left": 0.01875,
+                                    "width": 0.021875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-14-r-br"
+                            },
+                            {
+                                "text": "0004731",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.85,
+                                    "left": 0.059375,
+                                    "width": 0.090625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-14-sitra"
+                            },
+                            {
+                                "text": "BOCA SWING 1L STP",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.85,
+                                    "left": 0.171875,
+                                    "width": 0.209375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-14-product-name"
+                            },
+                            {
+                                "text": "8001023302900",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.85,
+                                    "left": 0.51875,
+                                    "width": 0.178125,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-14-barcode"
+                            },
+                            {
+                                "text": "kom",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.85,
+                                    "left": 0.715625,
+                                    "width": 0.05,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-14-unit"
+                            },
+                            {
+                                "text": "6.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.85,
+                                    "left": 0.78125,
+                                    "width": 0.046875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-14-quantity"
+                            },
+                            {
+                                "text": "1.73",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.85,
+                                    "left": 0.84375,
+                                    "width": 0.059375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-14-unit-price"
+                            },
+                            {
+                                "text": "5.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.85,
+                                    "left": 0.91875,
+                                    "width": 0.040625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-14-discount-percentage"
+                            },
+                            {
+                                "text": "1.64",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.85,
+                                    "left": 0.96875,
+                                    "width": 0.071875,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-14-discounted-price"
+                            },
+                            {
+                                "text": "25.0",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.85,
+                                    "left": 1.059375,
+                                    "width": 0.05625,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-14-vat-percentage"
+                            },
+                            {
+                                "text": "12.33",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.85,
+                                    "left": 1.134375,
+                                    "width": 0.084375,
+                                    "height": 0.021875
+                                },
+                                "tag": "row-14-total-value"
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "tableType": "Table",
+                    "headerColumnTypes": [],
+                    "rows": [
+                        [
+                            {
+                                "text": "PRODAJNA VRIJEDNOST",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.1,
+                                    "left": 0.01,
+                                    "width": 0.3,
+                                    "height": 0.05
+                                },
+                                "tag": "total-sales-value"
+                            },
+                            {
+                                "text": "791.55 EUR",
+                                "confidence": 99.8,
+                                "boundingBox": {
+                                    "top": 0.1,
+                                    "left": 0.7,
+                                    "width": 0.2,
+                                    "height": 0.05
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "text": "RABAT",
+                                "confidence": 99.7,
+                                "boundingBox": {
+                                    "top": 0.2,
+                                    "left": 0.01,
+                                    "width": 0.1,
+                                    "height": 0.05
+                                },
+                                "tag": "discount"
+                            },
+                            {
+                                "text": "39.58 EUR",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.2,
+                                    "left": 0.7,
+                                    "width": 0.2,
+                                    "height": 0.05
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "text": "OSNOVNA STOPA",
+                                "confidence": 99.6,
+                                "boundingBox": {
+                                    "top": 0.3,
+                                    "left": 0.01,
+                                    "width": 0.25,
+                                    "height": 0.05
+                                },
+                                "tag": "tax-rate"
+                            },
+                            {
+                                "text": "25.00%",
+                                "confidence": 99.8,
+                                "boundingBox": {
+                                    "top": 0.3,
+                                    "left": 0.7,
+                                    "width": 0.1,
+                                    "height": 0.05
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "text": "POREZ",
+                                "confidence": 99.7,
+                                "boundingBox": {
+                                    "top": 0.4,
+                                    "left": 0.01,
+                                    "width": 0.1,
+                                    "height": 0.05
+                                },
+                                "tag": "tax-amount"
+                            },
+                            {
+                                "text": "187.99 EUR",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.4,
+                                    "left": 0.7,
+                                    "width": 0.2,
+                                    "height": 0.05
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "text": "UKUPNO",
+                                "confidence": 99.8,
+                                "boundingBox": {
+                                    "top": 0.5,
+                                    "left": 0.01,
+                                    "width": 0.1,
+                                    "height": 0.05
+                                },
+                                "tag": "total"
+                            },
+                            {
+                                "text": "7,082.26 Kn",
+                                "confidence": 99.9,
+                                "boundingBox": {
+                                    "top": 0.5,
+                                    "left": 0.7,
+                                    "width": 0.2,
+                                    "height": 0.05
+                                }
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "tableTypes": [
+        {
+            "name": "Table"
+        },
+        {
+            "name": "Form",
+            "columnTypes": [
+                "Key",
+                "Value"
+            ]
+        }
+    ],
+    "metadata": {
+        "sourceDocumentUrl": "s3://tdd-store-document-965637542341/extract/WhatsApp Image 2023-06-06 at 10.38.29 (2).pdf"
+    }
+}

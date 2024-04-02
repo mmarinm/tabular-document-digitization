@@ -144,11 +144,13 @@ def lambda_handler(event, context):
 
     result = ProcessImage().generateJson(document)
 
-    message.MapUpdates.ParsedInvoice = result
 
     Logger.info(f'{STAGE} Actor : Started Processing DocumentID = {document.DocumentID}')
 
-  # Store.PutFile(Store.GetFile())
+    key = f'{document.DocumentID}.json'
+    Store.PutFile(STAGE, key, result.encode('utf-8'))
+
+    message.MapUpdates.S3Uri = f's3://{STORE_BUCKET}/{STAGE}/{key}'
 
     message.FinalStamp = GetCurrentStamp()
 

@@ -102,7 +102,7 @@ class PipelineMachineConstruct(Construct):
         extract_step_begin = self.__get_process_chain(Process.EXTRACT)
         # reshape_step_begin = self.__get_process_chain(Process.RESHAPE)
         # operate_step_begin = self.__get_process_chain(Process.OPERATE)
-        # augment_step_begin = self.__get_process_chain(Process.AUGMENT)
+        augment_step_begin = self.__get_process_chain(Process.AUGMENT)
         catalog_step_begin = self.__get_process_chain(Process.CATALOG)
 
         parallel_state = (
@@ -112,7 +112,7 @@ class PipelineMachineConstruct(Construct):
             .branch(extract_step_begin)
             # .branch(reshape_step_begin)
             # .branch(operate_step_begin)
-            # .branch(augment_step_begin)
+            .branch(augment_step_begin)
             .branch(catalog_step_begin)
         )
 
@@ -182,5 +182,5 @@ class PipelineMachineConstruct(Construct):
         return Wait(
             scope = self,
             id    = Manager.STANDBY,
-            time  = WaitTime.duration(Duration.seconds(10))
+            time  = WaitTime.duration(Duration.seconds(60))
         )

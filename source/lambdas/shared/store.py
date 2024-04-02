@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: MIT-0
 
 from shared.environ import STORE_BUCKET
+from shared.defines import *
 from shared.loggers import Logger
 from shared.clients import S3Resource, S3Client
 

@@ -26,13 +26,13 @@ if  __name__ == '__main__':
         suffix = suffix
     )
 
-    # template_stack = TemplateStack(
-    #     scope  = app,
-    #     id     = f'TDD-{deploy}-Template',
-    #     prefix = prefix,
-    #     suffix = suffix,
-    #     source = Path('source/augment-ui').absolute()
-    # )
+    template_stack = TemplateStack(
+        scope  = app,
+        id     = f'TDD-{deploy}-Template',
+        prefix = prefix,
+        suffix = suffix,
+        source = Path('source/augment-ui').absolute()
+    )
 
     pipeline_stack = PipelineStack(
         scope  = app,
@@ -40,12 +40,12 @@ if  __name__ == '__main__':
         prefix = prefix,
         suffix = suffix,
         source = Path('source/lambdas').absolute(),
-        # liquid = template_stack.get_resources()['liquid_uri']
-        liquid = None
+        liquid = template_stack.get_resources()['liquid_uri']
+        # liquid = None
     )
 
- #  template_stack.add_dependency(baseline_stack)
- #  pipeline_stack.add_dependency(baseline_stack)
-    # pipeline_stack.add_dependency(template_stack)
+    template_stack.add_dependency(baseline_stack)
+    pipeline_stack.add_dependency(baseline_stack)
+    pipeline_stack.add_dependency(template_stack)
 
     app.synth()

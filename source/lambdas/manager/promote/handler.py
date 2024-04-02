@@ -9,8 +9,9 @@ STAGE_TRANSITIONS_ORDER = [Stage.ACQUIRE,
                            Stage.EXTRACT,
                         #    Stage.RESHAPE,
                         #    Stage.OPERATE,
-                        #    Stage.AUGMENT,
-                           Stage.CATALOG]
+                           Stage.AUGMENT,
+                           Stage.CATALOG
+                           ]
 
 def lambda_handler(context, event):
     for index in range(len(STAGE_TRANSITIONS_ORDER) - 1):

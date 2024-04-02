@@ -5,13 +5,15 @@ from shared.defines import *
 from shared.environ import *
 from shared.helpers import Sanatize, GetCurrentStamp, GetEnvVar
 from shared.loggers import Logger
-from shared.clients import A2IClient
+from shared.clients import A2IClient, S3Client
 
+from shared.store    import Store
 from shared.database import Database
 from shared.document import Document
 from shared.storage  import S3Uri
 
 from shared.processor import BeginProcessor
+
 
 WFLOW_A2I_PRIMARY_ARN = GetEnvVar('WFLOW_A2I_PRIMARY_ARN', f'arn:aws:sagemaker:{REGION}:{ACCOUNT}:flow-definition/tdd-prime-wflow-primary')
 WFLOW_A2I_QUALITY_ARN = GetEnvVar('WFLOW_A2I_QUALITY_ARN', f'arn:aws:sagemaker:{REGION}:{ACCOUNT}:flow-definition/tdd-prime-wflow-quality')
@@ -40,13 +42,17 @@ class AugmentBeginProcessor(BeginProcessor):
             humanLoopID   = Sanatize(document.DocumentID)
             humanLoopName = Sanatize(f'{flowName}--{humanLoopID}--{humanLoopTime}').lower()
 
+            
+            response = S3Client.get_object(Bucket=STORE_BUCKET, Key=f'extract/SampleFaktura.json')
+            json_string = response['Body'].read().decode('utf-8')
+
             response = A2IClient.start_human_loop(
             **{
                 'HumanLoopName'     : humanLoopName,
                 'FlowDefinitionArn' : flowDefinitionArn,
                 'HumanLoopInput'    :
                 {
-                    'InputContent'  : document.OperateMap.StageS3Uri.GetText()
+                    'InputContent'  : json_string
                 },
                 'DataAttributes'    :
                 {

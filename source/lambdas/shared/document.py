@@ -51,7 +51,7 @@ class ConvertMap(StageMap):
     pass
 @dataclass
 class ExtractMap(StageMap):
-    ParsedInvoice: dict = field(default_factory=dict)   
+    S3Uri: str = '' 
 
 @dataclass
 class ReshapeMap(StageMap):
