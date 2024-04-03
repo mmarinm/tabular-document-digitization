@@ -101,7 +101,7 @@ class PipelineMachineConstruct(Construct):
         # convert_step_begin = self.__get_process_chain(Process.CONVERT)
         extract_step_begin = self.__get_process_chain(Process.EXTRACT)
         # reshape_step_begin = self.__get_process_chain(Process.RESHAPE)
-        # operate_step_begin = self.__get_process_chain(Process.OPERATE)
+        operate_step_begin = self.__get_process_chain(Process.OPERATE)
         augment_step_begin = self.__get_process_chain(Process.AUGMENT)
         catalog_step_begin = self.__get_process_chain(Process.CATALOG)
 
@@ -111,7 +111,7 @@ class PipelineMachineConstruct(Construct):
             # .branch(convert_step_begin)
             .branch(extract_step_begin)
             # .branch(reshape_step_begin)
-            # .branch(operate_step_begin)
+            .branch(operate_step_begin)
             .branch(augment_step_begin)
             .branch(catalog_step_begin)
         )

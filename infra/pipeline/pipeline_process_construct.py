@@ -20,7 +20,7 @@ class Process:
     CATALOG = 'catalog'
     CONVERT = 'convert'
     EXTRACT = 'extract'
-    # OPERATE = 'operate'
+    OPERATE = 'operate'
     # RESHAPE = 'reshape'
 
 class Aspect:
@@ -64,7 +64,7 @@ class PipelineProcessConstruct(Construct):
         # self.__create_stage_convert(stage = Process.CONVERT)
         self.__create_stage_extract(stage = Process.EXTRACT)
         # self.__create_stage_reshape(stage = Process.RESHAPE)
-        # self.__create_stage_operate(stage = Process.OPERATE)
+        self.__create_stage_operate(stage = Process.OPERATE)
         self.__create_stage_augment(stage = Process.AUGMENT)
         self.__create_stage_catalog(stage = Process.CATALOG)
 

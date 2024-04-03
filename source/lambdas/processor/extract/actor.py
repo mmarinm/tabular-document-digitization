@@ -7,11 +7,12 @@
 from shared.defines import *
 from shared.environ import *
 from shared.helpers import *
-from shared.message import ExtractMapUpdates
+
 
 from shared.message  import Message
 from shared.document import Document
 from shared.database import Database
+from shared.message  import Message
 from shared.store    import Store
 from shared.bus      import Bus
 from shared.storage  import S3Uri
@@ -138,7 +139,7 @@ class ProcessImage():
 def lambda_handler(event, context):
 
     document = Document.from_dict(event)
-    message  = ExtractMapUpdates(DocumentID = document.DocumentID)
+    message  = Message(DocumentID = document.DocumentID)
 
     print("message ", message)
 
@@ -150,7 +151,7 @@ def lambda_handler(event, context):
     key = f'{document.DocumentID}.json'
     Store.PutFile(STAGE, key, result.encode('utf-8'))
 
-    message.MapUpdates.S3Uri = f's3://{STORE_BUCKET}/{STAGE}/{key}'
+    message.MapUpdates.StageS3Uri = S3Uri(Bucket = STORE_BUCKET, Prefix = f'{STAGE}/{document.DocumentID}')
 
     message.FinalStamp = GetCurrentStamp()
 

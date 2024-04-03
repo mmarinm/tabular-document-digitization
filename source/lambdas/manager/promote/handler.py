@@ -8,7 +8,7 @@ STAGE_TRANSITIONS_ORDER = [Stage.ACQUIRE,
                         #    Stage.CONVERT,
                            Stage.EXTRACT,
                         #    Stage.RESHAPE,
-                        #    Stage.OPERATE,
+                           Stage.OPERATE,
                            Stage.AUGMENT,
                            Stage.CATALOG
                            ]

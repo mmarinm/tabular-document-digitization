@@ -13,6 +13,7 @@ from shared.document import Document
 from shared.storage  import S3Uri
 
 from shared.processor import BeginProcessor
+import json
 
 
 WFLOW_A2I_PRIMARY_ARN = GetEnvVar('WFLOW_A2I_PRIMARY_ARN', f'arn:aws:sagemaker:{REGION}:{ACCOUNT}:flow-definition/tdd-prime-wflow-primary')
@@ -42,9 +43,8 @@ class AugmentBeginProcessor(BeginProcessor):
             humanLoopID   = Sanatize(document.DocumentID)
             humanLoopName = Sanatize(f'{flowName}--{humanLoopID}--{humanLoopTime}').lower()
 
-            
-            response = S3Client.get_object(Bucket=STORE_BUCKET, Key=f'extract/SampleFaktura.json')
-            json_string = response['Body'].read().decode('utf-8')
+            sourceS3Uri = S3Uri(Bucket = STORE_BUCKET, Object = document.OperateMap.StageS3Uri.Object)
+            content = sourceS3Uri.GetJSON()
 
             response = A2IClient.start_human_loop(
             **{
@@ -52,7 +52,7 @@ class AugmentBeginProcessor(BeginProcessor):
                 'FlowDefinitionArn' : flowDefinitionArn,
                 'HumanLoopInput'    :
                 {
-                    'InputContent'  : json_string
+                    'InputContent'  : json.dumps(content)
                 },
                 'DataAttributes'    :
                 {
